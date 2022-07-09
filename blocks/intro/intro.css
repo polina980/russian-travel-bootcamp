@@ -1,0 +1,7 @@
+intro {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  max-width: 1280px;
+  margin: 0;
+}
