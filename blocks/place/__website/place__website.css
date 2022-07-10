@@ -1,4 +1,14 @@
+/* 1280px 1024px 768px */
 .place__website {
   align-self: end;
   grid-area: website;
+}
+
+/* 320px */
+@media screen and (max-width: 320px) {
+  .place__website {
+    max-width: 288px;
+    align-self: start;
+    padding: 0 16px;
+  }
 }

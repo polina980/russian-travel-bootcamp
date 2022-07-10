@@ -3,10 +3,8 @@
   display: flex;
   position: relative;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   margin: 0;
-  width: 100%;
   min-height: 740px;
   background-image: url('../../../images/__background.jpg');
   background-size: cover;
