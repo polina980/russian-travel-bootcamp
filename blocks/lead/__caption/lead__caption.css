@@ -1,11 +1,33 @@
+/* 1280px */
 .lead__caption {
   margin: 0;
-  padding-top: 8px;
+  padding: 8px 974px 0 148px;
   width: 158px;
   text-align: start;
   font-size: 10px;
   line-height: 14px;
   font-weight: 400;
   text-transform: uppercase;
-  letter-spacing: 1.5 px;
+  letter-spacing: 1.5px;
+}
+
+/* 1024px */
+@media screen and (max-width: 1024px) {
+  .lead__caption {
+    padding: 8px 818px 0 48px;
+  }
+}
+
+/* 768px */
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    padding: 8px 586px 0 24px;
+  }
+}
+
+/* 320px */
+@media screen and (max-width: 320px) {
+  .lead__caption {
+    padding: 8px 146px 0 16px;
+  }
 }

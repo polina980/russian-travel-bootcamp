@@ -1,3 +1,4 @@
+/* 1280px */
 .lead__title {
   max-width: 720px;
   text-align: center;
@@ -5,5 +6,29 @@
   line-height: 100px;
   font-weight: 900;
   margin: 0;
-  padding-bottom: 32px;
+  padding: 56px 280px 32px;
+}
+
+/* 1024px */
+@media screen and (max-width: 1024px) {
+  .lead__title {
+    padding: 48px 152px 32px;
+  }
+}
+
+/* 768px */
+@media screen and (max-width: 768px) {
+  .lead__title {
+    padding: 48px 24px 32px;
+  }
+}
+
+/* 320px */
+@media screen and (max-width: 320px) {
+  .lead__title {
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 44px;
+    padding: 48px 16px 16px;
+  }
 }

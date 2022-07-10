@@ -1,3 +1,4 @@
+/* 1280px */
 .place {
   display: grid;
   max-width: 1280px;
@@ -8,4 +9,35 @@
   "image paragraphs";
   gap: 48px 40px;
   padding: 0 148px;
+}
+
+/* 1024px */
+@media screen and (max-width: 1024px) {
+  .place {
+    max-width: 1024px;
+    padding: 0 48px;
+  }
+}
+
+/* 768px */
+@media screen and (max-width: 768px) {
+  .place {
+    max-width: 768px;
+    padding: 0 24px;
+  }
+}
+
+/* 320px */
+@media screen and (max-width: 320px) {
+  .place {
+    display: flex;
+    flex-direction: column;
+    grid-template-areas: 
+    "title"
+    "website"
+    "image"
+    "paragraphs";
+    max-width: 320px;
+    padding: 0 16px;
+  }
 }

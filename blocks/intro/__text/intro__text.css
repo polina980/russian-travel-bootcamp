@@ -1,8 +1,32 @@
+/* 1280px */
 .intro__text {
   margin: 0;
-  padding: 40px 0 0 148px;
+  padding: 40px 442px 0 148px;
   max-width: 690px;
   font-size: 16px;
   line-height: 26.08px;
   font-weight: 400;
+}
+
+/* 1024px */
+@media screen and (max-width: 1024px) {
+  .intro__text {
+    padding: 40px 286px 0 48px;
+  }
+}
+
+/* 768px */
+@media screen and (max-width: 768px) {
+  .intro__text {
+    padding: 40px 24px 0;
+    max-width: 720px;
+  }
+}
+
+/* 320px */
+@media screen and (max-width: 320px) {
+  .intro__text {
+    padding: 40px 16px 0;
+    max-width: 288px;
+  }
 }

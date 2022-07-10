@@ -1,10 +1,34 @@
+/* 1280px */
 .intro__list {
   flex-direction: column;
   margin: 0;
-  padding: 33px 0 0 148px;
+  padding: 33px 442px 0 148px;
   max-width: 690px;
   font-size: 12px;
   line-height: 18px;
   font-weight: 400;
   list-style-type: none;
+}
+
+/* 1024px */
+@media screen and (max-width: 1024px) {
+  .intro__list {
+    padding: 33px 286px 0 48px;
+  }
+}
+
+/* 768px */
+@media screen and (max-width: 768px) {
+  .intro__list {
+    padding: 33px 24px 0;
+    max-width: 720px;
+  }
+}
+
+/* 320px */
+@media screen and (max-width: 320px) {
+  .intro__list {
+    padding: 34px 16px 0;
+    max-width: 288px;
+  }
 }
