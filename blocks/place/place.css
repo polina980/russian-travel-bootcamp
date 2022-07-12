@@ -3,7 +3,7 @@
   display: grid;
   max-width: 1280px;
   margin: 0;
-  grid-template-columns: 460px 484px;
+  padding: 0 148px;
   grid-template-areas: 
   "title website"
   "image paragraphs";
@@ -14,7 +14,7 @@
 @media screen and (max-width: 1024px) {
   .place {
     max-width: 1024px;
-    grid-template-columns: 440px 456px;
+    padding: 0 48px;
     gap: 48px 32px;
   }
 }
@@ -23,7 +23,7 @@
 @media screen and (max-width: 768px) {
   .place {
     max-width: 768px;
-    grid-template-columns: 340px 352px;
+    padding: 0 24px;
     gap: 48px 28px;
   }
 }

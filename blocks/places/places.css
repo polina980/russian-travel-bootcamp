@@ -4,14 +4,13 @@
   display: grid;
   row-gap: 80px;
   margin: 0;
-  padding: 92px 148px 0;
+  padding-top: 92px;
 }
 
 /* 1024px */
 @media screen and (max-width: 1024px) {
   .places {
     max-width: 1024px;
-    padding: 92px 48px 0;
   }
 }
 
@@ -20,7 +19,7 @@
   .places {
     max-width: 768px;
     row-gap: 73px;
-    padding: 88px 24px 0;
+    padding-top: 88px;
   }
 }
 
@@ -29,6 +28,6 @@
   .places {
     max-width: 320px;
     row-gap: 50px;
-    padding: 64px 0 0;
+    padding-top: 64px;
   }
 }
