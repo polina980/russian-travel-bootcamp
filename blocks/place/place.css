@@ -1,7 +1,7 @@
 /* 1280px */
 .place {
   display: grid;
-  max-width: 1280px;
+  max-width: 984px;
   margin: 0;
   padding: 0 148px;
   grid-template-areas: 
@@ -13,7 +13,7 @@
 /* 1024px */
 @media screen and (max-width: 1024px) {
   .place {
-    max-width: 1024px;
+    max-width: 928px;
     padding: 0 48px;
     gap: 48px 32px;
   }
@@ -22,7 +22,7 @@
 /* 768px */
 @media screen and (max-width: 768px) {
   .place {
-    max-width: 768px;
+    max-width: 720px;
     padding: 0 24px;
     gap: 48px 28px;
   }
@@ -32,6 +32,7 @@
 @media screen and (max-width: 320px) {
   .place {
     max-width: 320px;
+    padding: 0;
     gap: 32px;
     grid-template-areas: 
     "title"
