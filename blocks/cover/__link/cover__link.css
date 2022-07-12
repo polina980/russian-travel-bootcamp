@@ -4,6 +4,7 @@
   position: relative;
   flex-direction: column;
   align-items: center;
+  max-width: 1184px;
   min-height: 740px;
   margin: 0;
   background-image: url('../../../images/__background.jpg');
@@ -33,6 +34,7 @@
 /* 1024px */
 @media screen and (max-width: 1024px) {
   .cover__link {
+    max-width: 1024px;
     min-height: 640px;
   }
 }
@@ -40,6 +42,7 @@
 /* 768px */
 @media screen and (max-width: 768px) {
   .cover__link {
+    max-width: 768px;
     min-height: 480px;
   }
 }
@@ -47,6 +50,7 @@
 /* 320px */
 @media screen and (max-width: 320px) {
   .cover__link {
+    max-width: 320px;
     min-height: 200px;
   }
 }
