@@ -5,21 +5,21 @@
   font-size: 30px;
   line-height: 36px;
   font-weight: 400;
-  margin: 0;
-  padding: 0 320px 64px;
+  margin: 0 auto;
+  padding-bottom: 64px;
 }
 
 /* 1024px */
 @media screen and (max-width: 1024px) {
   .lead__subtitle {
-    padding: 0 192px 56px;
+    padding-bottom: 56px;
   }
 }
 
 /* 768px */
 @media screen and (max-width: 768px) {
   .lead__subtitle {
-    padding: 0 64px 56px;
+    padding-bottom: 56px;
   }
 }
 
@@ -29,6 +29,6 @@
     max-width: 288px;
     font-size: 16px;
     line-height: 20px;
-    padding: 0 16px 40px;
+    padding-bottom: 40px;
   }
 }

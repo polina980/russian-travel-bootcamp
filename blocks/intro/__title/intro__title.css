@@ -1,24 +1,15 @@
-/* 1280px */
+/* 1280px 1024px */
 .intro__title {
-  margin: 0;
-  padding: 92px 442px 0 148px;
+  margin: 0 auto;
   max-width: 690px;
   font-size: 54px;
   line-height: 58px;
   font-weight: 900;
 }
 
-/* 1024px */
-@media screen and (max-width: 1024px) {
-  .intro__title {
-    padding: 92px 286px 0 48px;
-  }
-}
-
 /* 768px */
 @media screen and (max-width: 768px) {
   .intro__title {
-    padding: 88px 24px 0;
     max-width: 720px;
   }
 }
@@ -26,7 +17,6 @@
 /* 320px */
 @media screen and (max-width: 320px) {
   .intro__title {
-    padding: 64px 16px 0;
     max-width: 288px;
     font-size: 32px;
     line-height: 35px;
