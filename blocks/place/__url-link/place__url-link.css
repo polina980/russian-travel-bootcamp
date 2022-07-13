@@ -21,7 +21,7 @@
 }
 
 /* 320px */
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 320px) {
   .place__url-link {
     max-width: 288px;
     padding: 0;
