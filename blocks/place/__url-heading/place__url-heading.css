@@ -11,14 +11,14 @@
 }
 
 /* 768px */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .place__url-heading {
     max-width: 352px;
   }
 }
 
 /* 320px */
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 767px) {
   .place__url-heading {
     max-width: 288px;
   }
