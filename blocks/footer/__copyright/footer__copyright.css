@@ -1,13 +1,13 @@
 /* 1280px 1024px 768px */
 .footer__copyright {
-  margin: 0;
+  margin: 0 auto;
   font-size: 14px;
   line-height: 16px;
   font-weight: 400;
 }
 
 /* 320px */
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .footer__link {
     line-height: 14px;
   }

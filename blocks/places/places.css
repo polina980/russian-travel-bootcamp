@@ -3,7 +3,7 @@
   max-width: 1280px;
   display: grid;
   row-gap: 80px;
-  margin: 0;
+  margin: 0 auto;
   padding-top: 92px;
 }
 
@@ -24,7 +24,7 @@
 }
 
 /* 320px */
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .places {
     max-width: 320px;
     row-gap: 50px;
