@@ -1,8 +1,5 @@
-/* 1280px 1024px */
 .place__url-link {
-  max-width: 456px;
   margin: 0;
-  padding-bottom: 48px;
   font-size: 18px;
   line-height: 22px;
   font-weight: 400;
@@ -11,19 +8,4 @@
 
 .place__url-link:hover {
   opacity: .8;
-}
-
-/* 768px */
-@media screen and (max-width: 1023px) {
-  .place__url-link {
-    max-width: 352px;
-  }
-}
-
-/* 320px */
-@media screen and (min-width: 767px) {
-  .place__url-link {
-    max-width: 288px;
-    padding: 0;
-  }
 }

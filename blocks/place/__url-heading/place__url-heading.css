@@ -1,6 +1,5 @@
-/* 1280px 1024px */
+/* 320px 768px */
 .place__url-heading {
-  max-width: 456px;
   margin: 0;
   padding-bottom: 12px;
   font-size: 12px;
@@ -10,16 +9,9 @@
   letter-spacing: 2px;
 }
 
-/* 768px */
-@media screen and (max-width: 1023px) {
+/* 1024px 1280px */
+@media screen and (min-width: 1024px) {
   .place__url-heading {
-    max-width: 352px;
-  }
-}
-
-/* 320px */
-@media screen and (min-width: 767px) {
-  .place__url-heading {
-    max-width: 288px;
+    line-height: 20.4px;
   }
 }

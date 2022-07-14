@@ -1,13 +1,5 @@
-/* 1280px 1024px 768px */
 .place__image {
   max-width: 100%;
   margin: 0;
   grid-area: image;
-}
-
-/* 320 */
-@media screen and (max-width: 767px) {
-  .place__image {
-    max-width: 320px;
-  }
 }

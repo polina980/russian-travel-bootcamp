@@ -1,7 +1,7 @@
-/* 1280px 1024px */
+/* 320px */
 .lead__caption {
   margin: 0;
-  padding: 8px 0 0;
+  padding: 8px 0 0 16px;
   text-align: start;
   font-size: 10px;
   line-height: 14px;
@@ -11,15 +11,22 @@
 }
 
 /* 768px */
-@media screen and (max-width: 1023px) {
+@media screen and (min-width: 768px) {
   .lead__caption {
-    padding-left: 24px;
+    padding: 8px 0 0 24px;
   }
 }
 
-/* 320px */
-@media screen and (max-width: 767px) {
+/* 1024px */
+@media screen and (min-width: 1024px) {
   .lead__caption {
-    padding-left: 16px;
+    padding: 8px 0 0;
+  }
+}
+
+/* 1280px */
+@media screen and (min-width: 1280px) {
+  .lead__caption {
+    padding: 8px 0 0;
   }
 }

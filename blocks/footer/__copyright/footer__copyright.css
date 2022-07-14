@@ -1,14 +1,28 @@
-/* 1280px 1024px 768px */
+/* 320px */
 .footer__copyright {
   margin: 0;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 14px;
   font-weight: 400;
 }
 
-/* 320px */
-@media screen and (max-width: 767px) {
-  .footer__link {
-    line-height: 14px;
+/* 768px */
+@media screen and (min-width: 768px) {
+  .footer__copyright {
+    line-height: 16px;
+  }
+}
+
+/* 1024px */
+@media screen and (min-width: 1024px) {
+  .footer__copyright {
+    line-height: 16px;
+  }
+}
+
+/* 1280px */
+@media screen and (min-width: 1280px) {
+  .footer__copyright {
+    line-height: 16px;
   }
 }

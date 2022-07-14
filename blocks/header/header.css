@@ -1,21 +1,28 @@
-/* 1280px 1024px */
+/* 320px */
 .header {
   display: flex;
   justify-content: space-between;
-  width: calc(100% - 48px);
-  margin: 0 auto;
+  margin: 0;
+  padding: 0 16px;
 }
 
 /* 768px */
-@media screen and (max-width: 1023px) {
+@media screen and (min-width: 768px) {
   .header {
-    width: calc(100% - 24px);
+    padding: 0 24px;
   }
 }
 
-/* 320px */
-@media screen and (max-width: 767px) {
+/* 1024px */
+@media screen and (min-width: 1024px) {
   .header {
-    width: calc(100% - 16px);
+    padding: 0 48px;
+  }
+}
+
+/* 768px */
+@media screen and (min-width: 1280px) {
+  .header {
+    padding: 0 24px;
   }
 }

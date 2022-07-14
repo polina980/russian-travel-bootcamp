@@ -1,9 +1,9 @@
-/* 1028px 1024px */
+/* 320px 768px */
 .place__paragraph {
   margin: 0;
-  padding-bottom: 26px;
-  font-size: 18px;
-  line-height: 29.34px;
+  padding-bottom: 25px;
+  font-size: 16px;
+  line-height: 26.08px;
   font-weight: 400;
 }
 
@@ -11,19 +11,20 @@
   padding: 0;
 }
 
-/* 768px */
-@media screen and (max-width: 1023px) {
+/* 1024px */
+@media screen and (min-width: 1024px) {
   .place__paragraph {
-    font-size: 16px;
-    line-height: 26.08px;
+    padding-bottom: 26px;
+    font-size: 18px;
+    line-height: 29.34px;
   }
 }
 
-/* 320px */
-@media screen and (min-width: 767px) {
+/* 1280px */
+@media screen and (min-width: 1280px) {
   .place__paragraph {
-    font-size: 16px;
-    line-height: 26.08px;
-    padding-bottom: 25px;
+    padding-bottom: 26px;
+    font-size: 18px;
+    line-height: 29.34px;
   }
 }
