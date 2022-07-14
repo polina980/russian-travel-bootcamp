@@ -2,22 +2,24 @@
   position: relative;
   text-decoration: none;
   display: block;
- 
+  margin: 0 auto;
+  padding: 33px 16px;
   background-image: url('../../../images/cover-trains.jpg');
-  background-size: 100% 100%;
+  background-size: cover;
+  max-width: 1184px;
+  box-sizing: border-box;
   color: #fff;
   z-index: 1;
 }
 
 .cover__link::after {
-  position: absolute;
   content: "";
+  position: absolute;
   top: 0;
   left: 0;
-  bottom: 0;
-  right: 0;
   background-color: #2A2C2F;
   width: 100%;
+  height: 100%;
   opacity: .3;
   z-index: -1;
 }
@@ -29,20 +31,20 @@
 /* 768px */
 @media screen and (min-width: 768px) {
   .cover__link {
-  
+    padding: 115px 104px;
   }
 }
 
 /* 1024px */
 @media screen and (min-width: 1024px) {
   .cover__link {
-
+    padding: 195px 232px;
   }
 }
 
 /* 1280px */
 @media screen and (min-width: 1280px) {
   .cover__link {
-
+    padding: 245px 312px;
   }
 }
