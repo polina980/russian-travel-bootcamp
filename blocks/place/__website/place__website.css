@@ -4,26 +4,8 @@
   padding: 0 16px;
 }
 
-/* 768px */
+/* 768px 1024px 1280px */
 @media screen and (min-width: 768px) {
-  .place__website {
-    align-self: end;
-    grid-area: website;
-    padding: 0;
-  }
-}
-
-/* 1024px */
-@media screen and (min-width: 1024px) {
-  .place__website {
-    align-self: end;
-    grid-area: website;
-    padding: 0;
-  }
-}
-
-/* 1280px */
-@media screen and (min-width: 1280px) {
   .place__website {
     align-self: end;
     grid-area: website;

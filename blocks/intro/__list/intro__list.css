@@ -3,7 +3,7 @@
   flex-direction: column;
   max-width: 288px;
   margin: 0;
-  padding-top: 34px;
+  padding-top: 33px;
   padding-left: 0;
   font-size: 12px;
   line-height: 18px;
@@ -15,22 +15,12 @@
 @media screen and (min-width: 768px) {
   .intro__list {
     max-width: 720px;
-    padding-top: 33px;
   }
 }
 
-/* 1024px */
+/* 1024px 1280px */
 @media screen and (min-width: 1024px) {
   .intro__list {
     max-width: 690px;
-    padding-top: 33px;
-  }
-}
-
-/* 1280px */
-@media screen and (min-width: 1280px) {
-  .intro__list {
-    max-width: 690px;
-    padding-top: 33px;
   }
 }

@@ -9,26 +9,8 @@
   z-index: 1;
 }
 
-/* 768px */
+/* 768px 1024px 1280px */
 @media screen and (min-width: 768px) {
-  .cover__subtitle {
-    width: 360px;
-    font-size: 18px;
-    line-height: 22px;
-  }
-}
-
-/* 1024px */
-@media screen and (min-width: 1024px) {
-  .cover__subtitle {
-    width: 360px;
-    font-size: 18px;
-    line-height: 22px;
-  }
-}
-
-/* 1280px */
-@media screen and (min-width: 1280px) {
   .cover__subtitle {
     width: 360px;
     font-size: 18px;

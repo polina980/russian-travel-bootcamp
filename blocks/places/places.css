@@ -14,16 +14,8 @@
   }
 }
 
-/* 1024px */
+/* 1024px 1280px */
 @media screen and (min-width: 1024px) {
-  .places {
-    row-gap: 80px;
-    padding-top: 92px;
-  }
-}
-
-/* 1280px */
-@media screen and (min-width: 1280px) {
   .places {
     row-gap: 80px;
     padding-top: 92px;

@@ -1,3 +1,4 @@
+/* 320px */
 .cover {
   margin: 0 auto;
   padding-top: 66px;
@@ -10,15 +11,8 @@
   }
 }
 
-/* 1024px */
+/* 1024px 1028px */
 @media screen and (min-width: 1024px) {
-  .cover {
-    padding-top: 92px;
-  }
-}
-
-/* 1280px */
-@media screen and (min-width: 1280px) {
   .cover {
     padding-top: 92px;
   }

@@ -11,22 +11,14 @@
 @media screen and (min-width: 768px) {
   .footer {
     flex-direction: row;
-    padding: 88px 24px 24px;
+    padding: 89px 24px 24px;
   }
 }
 
-/* 1024px */
+/* 1024px 1280px */
 @media screen and (min-width: 1024px) {
   .footer {
     flex-direction: row;
-    padding: 92px 48px 24px;
-  }
-}
-
-/* 1280px */
-@media screen and (min-width: 1280px) {
-  .footer {
-    flex-direction: row;
-    padding: 92px 48px 24px;
+    padding: 91px 48px 24px;
   }
 }
