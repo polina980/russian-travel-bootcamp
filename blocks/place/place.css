@@ -2,7 +2,7 @@
 .place {
   display: grid;
   margin: 0;
-  padding: 0;
+  padding-bottom: 50px;
   gap: 31px;
   grid-template-areas: 
   "title"
@@ -11,10 +11,16 @@
   "paragraphs";
 }
 
+.place:last-child {
+  padding-bottom: 0;
+}
+
 /* 768px */
 @media screen and (min-width: 768px) {
   .place {
-    padding: 0 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 73px;
     grid-template-areas: 
     "title website"
     "image paragraphs";
@@ -26,10 +32,9 @@
 /* 1024px */
 @media screen and (min-width: 1024px) {
   .place {
-    padding: 0 48px;
-    grid-template-areas: 
-    "title website"
-    "image paragraphs";
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-bottom: 80px;
     grid-template-columns: 440px 1fr;
     gap: 48px 32px;
   }
@@ -38,10 +43,8 @@
 /* 1280px */
 @media screen and (min-width: 1280px) {
   .place {
-    padding: 0 148px;
-    grid-template-areas: 
-    "title website"
-    "image paragraphs";
+    padding-left: 148px;
+    padding-right: 148px;
     grid-template-columns: 460px 1fr;
     gap: 48px 40px;
   }

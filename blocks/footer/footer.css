@@ -18,7 +18,6 @@
 /* 1024px 1280px */
 @media screen and (min-width: 1024px) {
   .footer {
-    flex-direction: row;
     padding: 91px 48px 24px;
   }
 }
