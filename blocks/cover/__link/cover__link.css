@@ -1,3 +1,4 @@
+/* 320px */
 .cover__link {
   position: relative;
   text-decoration: none;
@@ -26,6 +27,7 @@
 
 .cover__link:hover::after {
   opacity: .8;
+  transition: opacity 1s ease-in;
 }
 
 /* 768px */

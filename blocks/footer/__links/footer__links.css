@@ -1,16 +1,15 @@
 /* 320px */
 .footer__links {
-  display: flex;
-  flex-direction: column;
-  list-style-type: none;
-  margin: 0;
-  padding: 0 0 16px;
+  padding: 0 0 32px;
+}
+
+.footer__links:last-child {
+  padding: 0;
 }
 
 /* 768px 1024px 1280px */
 @media screen and (min-width: 768px) {
   .footer__links {
-    flex-direction: row;
-    padding: 0;
+  padding: 0 18px 0 0;
   }
 }

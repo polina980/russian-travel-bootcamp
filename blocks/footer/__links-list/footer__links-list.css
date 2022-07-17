@@ -1,0 +1,15 @@
+/* 320px */
+.footer__links-list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* 768px 1024px 1280px */
+@media screen and (min-width: 768px) {
+  .footer__links-list {
+    flex-direction: row;
+  }
+}

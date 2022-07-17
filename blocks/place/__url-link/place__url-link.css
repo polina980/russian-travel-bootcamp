@@ -8,4 +8,5 @@
 
 .place__url-link:hover {
   opacity: .8;
+  transition: opacity .5s ease-in;
 }

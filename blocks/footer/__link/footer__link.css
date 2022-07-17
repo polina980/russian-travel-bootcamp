@@ -1,9 +1,6 @@
 /* 320px */
 .footer__link {
-  display: flex;
   text-decoration: none;
-  margin: 0;
-  padding: 0 0 32px;
   font-size: 24px;
   line-height: 24px;
   font-weight: 400;
@@ -12,12 +9,12 @@
 
 .footer__link:hover {
   opacity: .8;
+  transition: opacity .5s ease-in;
 }
 
 /* 768px 1024px 1280px */
 @media screen and (min-width: 768px) {
   .footer__link {
-    padding: 0 18px 0 0;
     font-size: 16px;
     line-height: 18px;
   }

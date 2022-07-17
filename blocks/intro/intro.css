@@ -3,34 +3,27 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  max-width: 288px;
-  margin: 0 auto;
-  padding-top: 64px;
-  padding-left: 16px;
+  margin: 0;
+  padding: 64px 16px 0;
 }
 
 /* 768px */
 @media screen and (min-width: 768px) {
   .intro {
-    margin: 0;
-    max-width: 720px;
-    padding-top: 88px;
-    padding-left: 24px;
+    padding: 88px 0 0 24px;
   }
 }
 
 /* 1024px */
 @media screen and (min-width: 1024px) {
   .intro {
-    max-width: 690px;
-    padding-top: 92px;
-    padding-left: 48px;
+    padding: 92px 0 0 48px;
   }
 }
 
 /* 1280px */
 @media screen and (min-width: 1280px) {
   .intro {
-    padding-left: 148px;
+    padding: 92px 0 0 148px;
   }
 }

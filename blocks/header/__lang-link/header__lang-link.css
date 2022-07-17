@@ -1,7 +1,6 @@
 /* 320px */
 .header__lang-link {
   margin: 0;
-  padding-left: 18px;
   font-size: 18px;
   line-height: 20px;
   font-weight: 400;
@@ -11,6 +10,7 @@
 
 .header__lang-link:hover {
   opacity: .8;
+  transition: opacity .5s ease-in;
 }
 
 /* 768px 1024px 1280px */
