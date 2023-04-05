@@ -13,8 +13,10 @@
 ### Инструкция по запуску проекта
 Чтобы запустить проект на своем компьютере, выполните следующие действия:
 1. клонируйте репозиторий на свой компьютер,
-2. откройте файл index.html в браузере  
-... или просто кликните здесь: ["Путешествия по России"](https://polinashchepochkina.github.io/russian-travel-bootcamp/)
+2. откройте файл index.html в браузере.  
+
+**Ссылка на сайт**  
+* [Путешествия по России](https://polinashchepochkina.github.io/russian-travel-bootcamp/)
 
 **Figma**  
-[Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+* [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
