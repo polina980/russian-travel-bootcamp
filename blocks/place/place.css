@@ -4,11 +4,11 @@
   margin: 0;
   padding-bottom: 50px;
   gap: 31px;
-  grid-template-areas: 
-  "title"
-  "website"
-  "image"
-  "paragraphs";
+  grid-template-areas:
+    "title"
+    "website"
+    "image"
+    "paragraphs";
 }
 
 .place:last-child {
@@ -21,9 +21,9 @@
     padding-left: 24px;
     padding-right: 24px;
     padding-bottom: 73px;
-    grid-template-areas: 
-    "title website"
-    "image paragraphs";
+    grid-template-areas:
+      "title website"
+      "image paragraphs";
     grid-template-columns: 340px 1fr;
     gap: 48px 28px;
   }
